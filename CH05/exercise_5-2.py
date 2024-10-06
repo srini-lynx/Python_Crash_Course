@@ -96,3 +96,12 @@ else:
     print("Mentioned Place is :: ",in_list)
     print("Is not part of the list")
 
+breakfast = [ 'idly', 'pongal', 'vade', 'masala dosai', 'puri' ]
+
+item = 'rave dosai'
+
+if item not in breakfast:
+    print("rave dosai is not in menu")
+else:
+    print("rave dosai is in menu")
+
